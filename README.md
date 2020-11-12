@@ -8,4 +8,5 @@ For ZTE - cdr_loader_zte
 Source directory and CDR prefix should be modified before compiling which can be fount at readFilr.cpp
 
 string DIRECTORY = ""; - Directory
+
 string PREFIX = ""; - Prefix
