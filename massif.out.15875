@@ -1,0 +1,1348 @@
+desc: (none)
+cmd: ./smgt_load_aero
+time_unit: i
+#-----------
+snapshot=0
+#-----------
+time=0
+mem_heap_B=0
+mem_heap_extra_B=0
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=1
+#-----------
+time=66744484
+mem_heap_B=8554707
+mem_heap_extra_B=2299317
+mem_stacks_B=0
+heap_tree=detailed
+n4: 8554707 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 7671620 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n1: 7577376 0x306649D199: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n2: 7577376 0x306649D5EA: std::string::reserve(unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 7577236 0x306649D866: std::string::append(char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 7577236 0x306647BF89: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib64/libstdc++.so.6.0.13)
+      n1: 7577236 0x40BF8A: readFile::run() (readFile.cpp:58)
+       n1: 7577236 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 7577236 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 7577236 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 140 in 2 places, all below massif's threshold (01.00%)
+  n0: 94244 in 2 places, all below massif's threshold (01.00%)
+ n1: 357376 0x40DD54: __gnu_cxx::new_allocator<std::string*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n2: 357376 0x40D917: std::_Deque_base<std::string*, std::allocator<std::string*> >::_M_allocate_node() (stl_deque.h:533)
+   n1: 357376 0x40D2A2: void std::deque<std::string*, std::allocator<std::string*> >::_M_push_back_aux<std::string* const&>(std::string* const&) (deque.tcc:447)
+    n1: 357376 0x40CAEB: std::deque<std::string*, std::allocator<std::string*> >::push_back(std::string* const&) (stl_deque.h:1399)
+     n1: 357376 0x40C70D: std::queue<std::string*, std::deque<std::string*, std::allocator<std::string*> > >::push(std::string* const&) (stl_queue.h:213)
+      n1: 357376 0x40BEF1: readFile::run() (readFile.cpp:65)
+       n1: 357376 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 357376 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 357376 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 357136 0x40BE83: readFile::run() (readFile.cpp:60)
+  n1: 357136 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 357136 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 357136 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 168575 in 41 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=2
+#-----------
+time=122244315
+mem_heap_B=9308673
+mem_heap_extra_B=2654775
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=3
+#-----------
+time=183718713
+mem_heap_B=10148322
+mem_heap_extra_B=3050302
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=4
+#-----------
+time=224417510
+mem_heap_B=10698284
+mem_heap_extra_B=3309444
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=5
+#-----------
+time=270772012
+mem_heap_B=11330761
+mem_heap_extra_B=3608535
+mem_stacks_B=0
+heap_tree=detailed
+n5: 11330761 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 9726754 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n1: 6909403 0x306649D199: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n2: 6909403 0x306649D5EA: std::string::reserve(unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 6909263 0x306649D866: std::string::append(char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 6909263 0x306647BF89: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib64/libstdc++.so.6.0.13)
+      n1: 6909263 0x40BF8A: readFile::run() (readFile.cpp:58)
+       n1: 6909263 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 6909263 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 6909263 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 140 in 2 places, all below massif's threshold (01.00%)
+  n2: 2817188 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 2817163 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 2817163 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 2817163 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 2817163 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 2817163 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 2817163 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 2817163 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 2817163 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 2817163 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 2817163 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 2817163 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 2817163 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 2817163 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n0: 163 in 1 place, below massif's threshold (01.00%)
+ n1: 778176 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 778176 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 778176 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 778176 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n1: 326144 0x40DD54: __gnu_cxx::new_allocator<std::string*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n2: 326144 0x40D917: std::_Deque_base<std::string*, std::allocator<std::string*> >::_M_allocate_node() (stl_deque.h:533)
+   n1: 326144 0x40D2A2: void std::deque<std::string*, std::allocator<std::string*> >::_M_push_back_aux<std::string* const&>(std::string* const&) (deque.tcc:447)
+    n1: 326144 0x40CAEB: std::deque<std::string*, std::allocator<std::string*> >::push_back(std::string* const&) (stl_deque.h:1399)
+     n1: 326144 0x40C70D: std::queue<std::string*, std::deque<std::string*, std::allocator<std::string*> > >::push(std::string* const&) (stl_queue.h:213)
+      n1: 326144 0x40BEF1: readFile::run() (readFile.cpp:65)
+       n1: 326144 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 326144 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 326144 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 325800 0x40BE83: readFile::run() (readFile.cpp:60)
+  n1: 325800 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 325800 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 325800 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 173887 in 40 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=6
+#-----------
+time=330203606
+mem_heap_B=12144097
+mem_heap_extra_B=3992815
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=7
+#-----------
+time=379315969
+mem_heap_B=12816438
+mem_heap_extra_B=4309330
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=8
+#-----------
+time=448238401
+mem_heap_B=13757645
+mem_heap_extra_B=4753171
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=9
+#-----------
+time=485931106
+mem_heap_B=14268281
+mem_heap_extra_B=4994991
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=10
+#-----------
+time=535178416
+mem_heap_B=14935133
+mem_heap_extra_B=5308979
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=11
+#-----------
+time=571452754
+mem_heap_B=15430753
+mem_heap_extra_B=5542783
+mem_stacks_B=0
+heap_tree=detailed
+n5: 15430753 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 12759666 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 6834731 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 6834706 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 6834706 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 6834706 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 6834706 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 6834706 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 6834706 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 6834706 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 6834706 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 6834706 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 6834706 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 6834706 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 6834706 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 6834706 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n1: 5924772 0x306649D199: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n2: 5924772 0x306649D5EA: std::string::reserve(unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 5924632 0x306649D866: std::string::append(char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 5924632 0x306647BF89: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib64/libstdc++.so.6.0.13)
+      n1: 5924632 0x40BF8A: readFile::run() (readFile.cpp:58)
+       n1: 5924632 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 5924632 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 5924632 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 140 in 2 places, all below massif's threshold (01.00%)
+  n0: 163 in 1 place, below massif's threshold (01.00%)
+ n1: 1888704 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 1888704 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 1888704 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 1888704 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n1: 280064 0x40DD54: __gnu_cxx::new_allocator<std::string*>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n2: 280064 0x40D917: std::_Deque_base<std::string*, std::allocator<std::string*> >::_M_allocate_node() (stl_deque.h:533)
+   n1: 280064 0x40D2A2: void std::deque<std::string*, std::allocator<std::string*> >::_M_push_back_aux<std::string* const&>(std::string* const&) (deque.tcc:447)
+    n1: 280064 0x40CAEB: std::deque<std::string*, std::allocator<std::string*> >::push_back(std::string* const&) (stl_deque.h:1399)
+     n1: 280064 0x40C70D: std::queue<std::string*, std::deque<std::string*, std::allocator<std::string*> > >::push(std::string* const&) (stl_queue.h:213)
+      n1: 280064 0x40BEF1: readFile::run() (readFile.cpp:65)
+       n1: 280064 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 280064 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 280064 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
+ n1: 279528 0x40BE83: readFile::run() (readFile.cpp:60)
+  n1: 279528 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 279528 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 279528 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 222791 in 40 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=12
+#-----------
+time=609562092
+mem_heap_B=15951054
+mem_heap_extra_B=5788546
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=13
+#-----------
+time=653102791
+mem_heap_B=16547926
+mem_heap_extra_B=6070266
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=14
+#-----------
+time=698623099
+mem_heap_B=17172099
+mem_heap_extra_B=6364373
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=15
+#-----------
+time=733765387
+mem_heap_B=17652695
+mem_heap_extra_B=6591297
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=16
+#-----------
+time=788581583
+mem_heap_B=18403224
+mem_heap_extra_B=6946472
+mem_stacks_B=0
+heap_tree=detailed
+n3: 18403224 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 14960625 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 9744531 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 9744506 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 9744506 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 9744506 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 9744506 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 9744506 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 9744506 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 9744506 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 9744506 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 9744506 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 9744506 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 9744506 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 9744506 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 9744506 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n1: 5215931 0x306649D199: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n2: 5215931 0x306649D5EA: std::string::reserve(unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 5215791 0x306649D866: std::string::append(char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 5215791 0x306647BF89: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib64/libstdc++.so.6.0.13)
+      n1: 5215791 0x40BF8A: readFile::run() (readFile.cpp:58)
+       n1: 5215791 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 5215791 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 5215791 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 140 in 2 places, all below massif's threshold (01.00%)
+  n0: 163 in 1 place, below massif's threshold (01.00%)
+ n1: 2694336 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 2694336 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 2694336 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 2694336 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 748263 in 42 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=17
+#-----------
+time=849652557
+mem_heap_B=19237015
+mem_heap_extra_B=7340321
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=18
+#-----------
+time=903645762
+mem_heap_B=19965701
+mem_heap_extra_B=7684411
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=19
+#-----------
+time=959946053
+mem_heap_B=20726470
+mem_heap_extra_B=8042434
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=20
+#-----------
+time=1017801757
+mem_heap_B=21514928
+mem_heap_extra_B=8414584
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=21
+#-----------
+time=1078254666
+mem_heap_B=22338405
+mem_heap_extra_B=8801907
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=22
+#-----------
+time=1140681985
+mem_heap_B=23196937
+mem_heap_extra_B=9205319
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=23
+#-----------
+time=1172794875
+mem_heap_B=23635541
+mem_heap_extra_B=9412987
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=24
+#-----------
+time=1212391480
+mem_heap_B=24177046
+mem_heap_extra_B=9668578
+mem_stacks_B=0
+heap_tree=detailed
+n3: 24177046 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 19233079 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 15403906 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 15403881 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 15403881 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 15403881 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 15403881 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 15403881 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 15403881 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 15403881 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 15403881 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 15403881 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 15403881 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 15403881 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 15403881 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 15403881 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n1: 3829010 0x306649D199: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n2: 3829010 0x306649D5EA: std::string::reserve(unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 3828870 0x306649D866: std::string::append(char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 3828870 0x306647BF89: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib64/libstdc++.so.6.0.13)
+      n1: 3828870 0x40BF8A: readFile::run() (readFile.cpp:58)
+       n1: 3828870 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 3828870 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 3828870 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 140 in 2 places, all below massif's threshold (01.00%)
+  n0: 163 in 1 place, below massif's threshold (01.00%)
+ n1: 4258176 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 4258176 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 4258176 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 4258176 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 685791 in 42 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=25
+#-----------
+time=1277624850
+mem_heap_B=25070216
+mem_heap_extra_B=10090504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=26
+#-----------
+time=1347894538
+mem_heap_B=26034248
+mem_heap_extra_B=10545856
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=27
+#-----------
+time=1384259387
+mem_heap_B=26525272
+mem_heap_extra_B=10778208
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=28
+#-----------
+time=1426099554
+mem_heap_B=27097360
+mem_heap_extra_B=11047720
+mem_stacks_B=0
+heap_tree=detailed
+n3: 27097360 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 21393257 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 18262997 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 18262972 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 18262972 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 18262972 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 18262972 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 18262972 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 18262972 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 18262972 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 18262972 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 18262972 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 18262972 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 18262972 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 18262972 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 18262972 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n1: 3130097 0x306649D199: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n2: 3130097 0x306649D5EA: std::string::reserve(unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 3129957 0x306649D866: std::string::append(char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 3129957 0x306647BF89: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib64/libstdc++.so.6.0.13)
+      n1: 3129957 0x40BF8A: readFile::run() (readFile.cpp:58)
+       n1: 3129957 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 3129957 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 3129957 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 140 in 2 places, all below massif's threshold (01.00%)
+  n0: 163 in 1 place, below massif's threshold (01.00%)
+ n1: 5049024 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 5049024 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 5049024 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 5049024 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 655079 in 42 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=29
+#-----------
+time=1459300178
+mem_heap_B=27552125
+mem_heap_extra_B=11263491
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=30
+#-----------
+time=1497742450
+mem_heap_B=28077824
+mem_heap_extra_B=11511880
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=31
+#-----------
+time=1536938484
+mem_heap_B=28615385
+mem_heap_extra_B=11765751
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=32
+#-----------
+time=1576936943
+mem_heap_B=29162972
+mem_heap_extra_B=12024668
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=33
+#-----------
+time=1617667740
+mem_heap_B=29721726
+mem_heap_extra_B=12288866
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=34
+#-----------
+time=1666053363
+mem_heap_B=30385608
+mem_heap_extra_B=12602104
+mem_stacks_B=0
+heap_tree=detailed
+n3: 30385608 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 23827673 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 21480854 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 21480829 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 21480829 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 21480829 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 21480829 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 21480829 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 21480829 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 21480829 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 21480829 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 21480829 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 21480829 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 21480829 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 21480829 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 21480829 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n1: 2346656 0x306649D199: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n2: 2346656 0x306649D5EA: std::string::reserve(unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 2346516 0x306649D866: std::string::append(char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 2346516 0x306647BF89: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib64/libstdc++.so.6.0.13)
+      n1: 2346516 0x40BF8A: readFile::run() (readFile.cpp:58)
+       n1: 2346516 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 2346516 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 2346516 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 140 in 2 places, all below massif's threshold (01.00%)
+  n0: 163 in 1 place, below massif's threshold (01.00%)
+ n1: 5940288 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 5940288 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 5940288 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 5940288 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 617647 in 42 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=35
+#-----------
+time=1708965987
+mem_heap_B=30974394
+mem_heap_extra_B=12879070
+mem_stacks_B=0
+heap_tree=detailed
+n3: 30974394 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 24262339 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 22055805 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 22055780 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 22055780 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 22055780 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 22055780 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 22055780 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 22055780 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 22055780 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 22055780 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 22055780 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 22055780 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 22055780 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 22055780 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 22055780 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n1: 2206371 0x306649D199: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n2: 2206371 0x306649D5EA: std::string::reserve(unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 2206231 0x306649D866: std::string::append(char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 2206231 0x306647BF89: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib64/libstdc++.so.6.0.13)
+      n1: 2206231 0x40BF8A: readFile::run() (readFile.cpp:58)
+       n1: 2206231 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 2206231 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 2206231 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 140 in 2 places, all below massif's threshold (01.00%)
+  n0: 163 in 1 place, below massif's threshold (01.00%)
+ n1: 6099456 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 6099456 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 6099456 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 6099456 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 612599 in 42 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=36
+#-----------
+time=1752855594
+mem_heap_B=31574340
+mem_heap_extra_B=13162052
+mem_stacks_B=0
+heap_tree=detailed
+n3: 31574340 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 24707229 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 22643931 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 22643906 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 22643906 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 22643906 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 22643906 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 22643906 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 22643906 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 22643906 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 22643906 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 22643906 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 22643906 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 22643906 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 22643906 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 22643906 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n1: 2063135 0x306649D199: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n2: 2063135 0x306649D5EA: std::string::reserve(unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 2062995 0x306649D866: std::string::append(char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 2062995 0x306647BF89: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib64/libstdc++.so.6.0.13)
+      n1: 2062995 0x40BF8A: readFile::run() (readFile.cpp:58)
+       n1: 2062995 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 2062995 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 2062995 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 140 in 2 places, all below massif's threshold (01.00%)
+  n0: 163 in 1 place, below massif's threshold (01.00%)
+ n1: 6262272 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 6262272 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 6262272 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 6262272 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 604839 in 42 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=37
+#-----------
+time=1797666885
+mem_heap_B=32186447
+mem_heap_extra_B=13449897
+mem_stacks_B=0
+heap_tree=detailed
+n3: 32186447 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 25160336 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 23243626 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 23243601 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 23243601 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 23243601 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 23243601 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 23243601 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 23243601 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 23243601 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 23243601 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 23243601 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 23243601 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 23243601 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 23243601 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 23243601 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n1: 1916547 0x306649D199: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n2: 1916547 0x306649D5EA: std::string::reserve(unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 1916407 0x306649D866: std::string::append(char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 1916407 0x306647BF89: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib64/libstdc++.so.6.0.13)
+      n1: 1916407 0x40BF8A: readFile::run() (readFile.cpp:58)
+       n1: 1916407 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 1916407 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 1916407 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 140 in 2 places, all below massif's threshold (01.00%)
+  n0: 163 in 1 place, below massif's threshold (01.00%)
+ n1: 6428160 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 6428160 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 6428160 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 6428160 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 597951 in 42 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=38
+#-----------
+time=1843261878
+mem_heap_B=32810686
+mem_heap_extra_B=13743746
+mem_stacks_B=0
+heap_tree=detailed
+n3: 32810686 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 25621255 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 23853697 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 23853672 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 23853672 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 23853672 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 23853672 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 23853672 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 23853672 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 23853672 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 23853672 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 23853672 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 23853672 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 23853672 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 23853672 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 23853672 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n1: 1767395 0x306649D199: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n2: 1767395 0x306649D5EA: std::string::reserve(unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 1767255 0x306649D866: std::string::append(char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 1767255 0x306647BF89: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib64/libstdc++.so.6.0.13)
+      n1: 1767255 0x40BF8A: readFile::run() (readFile.cpp:58)
+       n1: 1767255 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 1767255 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 1767255 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 140 in 2 places, all below massif's threshold (01.00%)
+  n0: 163 in 1 place, below massif's threshold (01.00%)
+ n1: 6596928 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 6596928 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 6596928 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 6596928 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 592503 in 42 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=39
+#-----------
+time=1889451963
+mem_heap_B=33440937
+mem_heap_extra_B=14041527
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=40
+#-----------
+time=1913641237
+mem_heap_B=33771687
+mem_heap_extra_B=14197689
+mem_stacks_B=0
+heap_tree=detailed
+n3: 33771687 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n3: 26333336 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 24795905 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 24795880 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 24795880 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 24795880 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 24795880 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 24795880 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 24795880 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 24795880 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 24795880 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 24795880 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 24795880 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 24795880 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 24795880 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 24795880 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n1: 1537268 0x306649D199: std::string::_Rep::_M_clone(std::allocator<char> const&, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n2: 1537268 0x306649D5EA: std::string::reserve(unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 1537128 0x306649D866: std::string::append(char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 1537128 0x306647BF89: std::basic_istream<char, std::char_traits<char> >& std::getline<char, std::char_traits<char>, std::allocator<char> >(std::basic_istream<char, std::char_traits<char> >&, std::basic_string<char, std::char_traits<char>, std::allocator<char> >&, char) (in /usr/lib64/libstdc++.so.6.0.13)
+      n1: 1537128 0x40BF8A: readFile::run() (readFile.cpp:58)
+       n1: 1537128 0x403400: runThread(void*) (Thread.cpp:18)
+        n1: 1537128 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+         n0: 1537128 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 140 in 2 places, all below massif's threshold (01.00%)
+  n0: 163 in 1 place, below massif's threshold (01.00%)
+ n1: 6857664 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 6857664 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 6857664 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 6857664 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 580687 in 42 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=41
+#-----------
+time=1960478127
+mem_heap_B=34412812
+mem_heap_extra_B=14500860
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=42
+#-----------
+time=2008886152
+mem_heap_B=35077456
+mem_heap_extra_B=14814144
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=43
+#-----------
+time=2058106285
+mem_heap_B=35751396
+mem_heap_extra_B=15132524
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=44
+#-----------
+time=2108479735
+mem_heap_B=36438921
+mem_heap_extra_B=15456399
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=45
+#-----------
+time=2160372235
+mem_heap_B=37140129
+mem_heap_extra_B=15787375
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=46
+#-----------
+time=2213339555
+mem_heap_B=37861857
+mem_heap_extra_B=16127823
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=47
+#-----------
+time=2266685855
+mem_heap_B=38592114
+mem_heap_extra_B=16472598
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=48
+#-----------
+time=2321212327
+mem_heap_B=39337858
+mem_heap_extra_B=16824134
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=49
+#-----------
+time=2382037363
+mem_heap_B=40170971
+mem_heap_extra_B=17217629
+mem_stacks_B=0
+heap_tree=peak
+n3: 40170971 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 31068948 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 31063609 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 31063584 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 31063584 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 31063584 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 31063584 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 31063584 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 31063584 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 31063584 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 31063584 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 31063584 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 31063584 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 31063584 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 31063584 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 31063584 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n0: 5339 in 2 places, all below massif's threshold (01.00%)
+ n1: 8591616 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 8591616 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 8591616 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 8591616 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 510407 in 42 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=50
+#-----------
+time=2406229701
+mem_heap_B=39295234
+mem_heap_extra_B=16837878
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=51
+#-----------
+time=2430429101
+mem_heap_B=38372280
+mem_heap_extra_B=16407304
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=52
+#-----------
+time=2454627871
+mem_heap_B=37465986
+mem_heap_extra_B=15979006
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=53
+#-----------
+time=2478819914
+mem_heap_B=36528905
+mem_heap_extra_B=15547015
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=54
+#-----------
+time=2503011954
+mem_heap_B=35267362
+mem_heap_extra_B=15120030
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=55
+#-----------
+time=2527209136
+mem_heap_B=34365734
+mem_heap_extra_B=14689258
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=56
+#-----------
+time=2551398492
+mem_heap_B=33461532
+mem_heap_extra_B=14260004
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=57
+#-----------
+time=2575595956
+mem_heap_B=32523112
+mem_heap_extra_B=13831912
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=58
+#-----------
+time=2599786137
+mem_heap_B=31650838
+mem_heap_extra_B=13402530
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=59
+#-----------
+time=2623977680
+mem_heap_B=30327272
+mem_heap_extra_B=12975096
+mem_stacks_B=0
+heap_tree=detailed
+n3: 30327272 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 23376170 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 23375921 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 23375896 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 23375896 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 23375896 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 23375896 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 23375896 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 23375896 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 23375896 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 23375896 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 23375896 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 23375896 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 23375896 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 23375896 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 23375896 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n0: 249 in 2 places, all below massif's threshold (01.00%)
+ n1: 6466752 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 6466752 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 6466752 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 6466752 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 484350 in 59 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=60
+#-----------
+time=2648169403
+mem_heap_B=29454513
+mem_heap_extra_B=12543527
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=61
+#-----------
+time=2672360476
+mem_heap_B=28517328
+mem_heap_extra_B=12112488
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=62
+#-----------
+time=2696550256
+mem_heap_B=27647372
+mem_heap_extra_B=11680812
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=63
+#-----------
+time=2720741872
+mem_heap_B=26319180
+mem_heap_extra_B=11254604
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=64
+#-----------
+time=2744940340
+mem_heap_B=25379968
+mem_heap_extra_B=10827136
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=65
+#-----------
+time=2769130254
+mem_heap_B=24441447
+mem_heap_extra_B=10397993
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=66
+#-----------
+time=2793319560
+mem_heap_B=23633427
+mem_heap_extra_B=9970933
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=67
+#-----------
+time=2817513962
+mem_heap_B=22277340
+mem_heap_extra_B=9545060
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=68
+#-----------
+time=2841706922
+mem_heap_B=21340454
+mem_heap_extra_B=9113906
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=69
+#-----------
+time=2865896971
+mem_heap_B=20437872
+mem_heap_extra_B=8683272
+mem_stacks_B=0
+heap_tree=detailed
+n3: 20437872 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 15597442 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 15597193 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 15597168 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 15597168 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 15597168 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 15597168 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 15597168 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 15597168 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 15597168 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 15597168 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 15597168 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 15597168 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 15597168 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 15597168 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 15597168 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n0: 249 in 2 places, all below massif's threshold (01.00%)
+ n1: 4316160 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 4316160 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 4316160 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 4316160 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n0: 524270 in 59 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=70
+#-----------
+time=2890086564
+mem_heap_B=19633714
+mem_heap_extra_B=8252406
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=71
+#-----------
+time=2914278853
+mem_heap_B=18268468
+mem_heap_extra_B=7823916
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=72
+#-----------
+time=2938478895
+mem_heap_B=17338286
+mem_heap_extra_B=7395362
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=73
+#-----------
+time=2962670057
+mem_heap_B=16432923
+mem_heap_extra_B=6963613
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=74
+#-----------
+time=2986859980
+mem_heap_B=15495808
+mem_heap_extra_B=6531624
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=75
+#-----------
+time=3011051271
+mem_heap_B=14243193
+mem_heap_extra_B=6103391
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=76
+#-----------
+time=3035251348
+mem_heap_B=13333088
+mem_heap_extra_B=5672032
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=77
+#-----------
+time=3059440791
+mem_heap_B=12428976
+mem_heap_extra_B=5240504
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=78
+#-----------
+time=3083630808
+mem_heap_B=11493969
+mem_heap_extra_B=4811343
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=79
+#-----------
+time=3107820607
+mem_heap_B=10624564
+mem_heap_extra_B=4381524
+mem_stacks_B=0
+heap_tree=detailed
+n4: 10624564 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 7828566 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 7828317 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 7828292 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 7828292 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 7828292 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 7828292 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 7828292 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 7828292 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 7828292 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 7828292 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 7828292 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 7828292 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 7828292 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 7828292 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 7828292 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n0: 249 in 2 places, all below massif's threshold (01.00%)
+ n1: 2165760 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 2165760 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 2165760 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 2165760 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n2: 393728 0x5541A5D: bson_realloc (in /usr/local/lib/libbson-1.0.so.0.0.0)
+  n1: 393728 0x553683A: _bson_grow (in /usr/local/lib/libbson-1.0.so.0.0.0)
+   n2: 393728 0x55375C2: _bson_append (in /usr/local/lib/libbson-1.0.so.0.0.0)
+    n1: 393216 0x5538230: bson_append_document (in /usr/local/lib/libbson-1.0.so.0.0.0)
+     n1: 393216 0x578F835: _mongoc_write_command_insert_append (in /usr/local/lib/libmongoc-1.0.so.0.0.0)
+      n1: 393216 0x576AE1C: mongoc_bulk_operation_insert (in /usr/local/lib/libmongoc-1.0.so.0.0.0)
+       n2: 393216 0x52FF6E5: mongocxx::v_noabi::bulk_write::append(mongocxx::v_noabi::model::write const&) (in /usr/local/lib/libmongocxx.so.3.0.1)
+        n1: 262144 0x40ACE7: mongo::insert(holder*) (mongo.cpp:80)
+         n1: 262144 0x40E864: writeDb::run() (writeDb.cpp:28)
+          n1: 262144 0x403400: runThread(void*) (Thread.cpp:18)
+           n1: 262144 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+            n0: 262144 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 131072 in 1 place, below massif's threshold (01.00%)
+    n0: 512 in 1 place, below massif's threshold (01.00%)
+  n0: 0 in 4 places, all below massif's threshold (01.00%)
+ n0: 236510 in 58 places, all below massif's threshold (01.00%)
+#-----------
+snapshot=80
+#-----------
+time=3132010120
+mem_heap_B=9315013
+mem_heap_extra_B=3954539
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=81
+#-----------
+time=3156209065
+mem_heap_B=8429134
+mem_heap_extra_B=3523898
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=82
+#-----------
+time=3180399682
+mem_heap_B=7493915
+mem_heap_extra_B=3092557
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=83
+#-----------
+time=3204589235
+mem_heap_B=6624600
+mem_heap_extra_B=2661824
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=84
+#-----------
+time=3228783257
+mem_heap_B=5283475
+mem_heap_extra_B=2234901
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=85
+#-----------
+time=3252977740
+mem_heap_B=4362251
+mem_heap_extra_B=1807629
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=86
+#-----------
+time=3277167021
+mem_heap_B=3424648
+mem_heap_extra_B=1379464
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=87
+#-----------
+time=3301357656
+mem_heap_B=2621580
+mem_heap_extra_B=948620
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=88
+#-----------
+time=3325554181
+mem_heap_B=1279967
+mem_heap_extra_B=521417
+mem_stacks_B=0
+heap_tree=empty
+#-----------
+snapshot=89
+#-----------
+time=3349746346
+mem_heap_B=361279
+mem_heap_extra_B=90841
+mem_stacks_B=0
+heap_tree=detailed
+n8: 361279 (heap allocation functions) malloc/new/new[], --alloc-fns, etc.
+ n2: 131584 0x5541A5D: bson_realloc (in /usr/local/lib/libbson-1.0.so.0.0.0)
+  n1: 131584 0x553683A: _bson_grow (in /usr/local/lib/libbson-1.0.so.0.0.0)
+   n2: 131584 0x55375C2: _bson_append (in /usr/local/lib/libbson-1.0.so.0.0.0)
+    n1: 131072 0x5538230: bson_append_document (in /usr/local/lib/libbson-1.0.so.0.0.0)
+     n1: 131072 0x578F835: _mongoc_write_command_insert_append (in /usr/local/lib/libmongoc-1.0.so.0.0.0)
+      n1: 131072 0x576AE1C: mongoc_bulk_operation_insert (in /usr/local/lib/libmongoc-1.0.so.0.0.0)
+       n2: 131072 0x52FF6E5: mongocxx::v_noabi::bulk_write::append(mongocxx::v_noabi::model::write const&) (in /usr/local/lib/libmongocxx.so.3.0.1)
+        n1: 65536 0x40ACE7: mongo::insert(holder*) (mongo.cpp:80)
+         n1: 65536 0x40E864: writeDb::run() (writeDb.cpp:28)
+          n1: 65536 0x403400: runThread(void*) (Thread.cpp:18)
+           n1: 65536 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+            n0: 65536 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n1: 65536 0x40AC6A: mongo::insert(holder*) (mongo.cpp:76)
+         n1: 65536 0x40E864: writeDb::run() (writeDb.cpp:28)
+          n1: 65536 0x403400: runThread(void*) (Thread.cpp:18)
+           n1: 65536 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+            n0: 65536 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+    n0: 512 in 1 place, below massif's threshold (01.00%)
+  n0: 0 in 4 places, all below massif's threshold (01.00%)
+ n3: 77776 0x306486AC2C: CRYPTO_malloc (in /usr/lib64/libcrypto.so.1.0.1e)
+  n3: 70608 0x30648E60A1: lh_insert (in /usr/lib64/libcrypto.so.1.0.1e)
+   n1: 64392 0x30648E87C7: ??? (in /usr/lib64/libcrypto.so.1.0.1e)
+    n3: 64392 0x30648E814A: ??? (in /usr/lib64/libcrypto.so.1.0.1e)
+     n0: 51888 in 59 places, all below massif's threshold (01.00%)
+     n1: 7248 0x5794CD2: _mongoc_openssl_init (in /usr/local/lib/libmongoc-1.0.so.0.0.0)
+      n1: 7248 0x577BA17: _mongoc_do_init (in /usr/local/lib/libmongoc-1.0.so.0.0.0)
+       n1: 7248 0x37C060CD31: pthread_once (in /lib64/libpthread-2.12.so)
+        n1: 7248 0x37BF60E59D: _dl_init (in /lib64/ld-2.12.so)
+         n0: 7248 0x37BF600B38: ??? (in /lib64/ld-2.12.so)
+     n1: 5256 0x306685106C: ERR_load_SSL_strings (in /usr/lib64/libssl.so.1.0.1e)
+      n1: 5256 0x5794CD2: _mongoc_openssl_init (in /usr/local/lib/libmongoc-1.0.so.0.0.0)
+       n1: 5256 0x577BA17: _mongoc_do_init (in /usr/local/lib/libmongoc-1.0.so.0.0.0)
+        n1: 5256 0x37C060CD31: pthread_once (in /lib64/libpthread-2.12.so)
+         n1: 5256 0x37BF60E59D: _dl_init (in /lib64/ld-2.12.so)
+          n0: 5256 0x37BF600B38: ??? (in /lib64/ld-2.12.so)
+   n1: 6144 0x306486DD99: OBJ_NAME_add (in /usr/lib64/libcrypto.so.1.0.1e)
+    n0: 6144 in 140 places, all below massif's threshold (01.00%)
+   n0: 72 in 1 place, below massif's threshold (01.00%)
+  n1: 6144 0x306486DD6D: OBJ_NAME_add (in /usr/lib64/libcrypto.so.1.0.1e)
+   n0: 6144 in 169 places, all below massif's threshold (01.00%)
+  n0: 1024 in 17 places, all below massif's threshold (01.00%)
+ n2: 68937 0x306649C3C7: std::string::_Rep::_S_create(unsigned long, unsigned long, std::allocator<char> const&) (in /usr/lib64/libstdc++.so.6.0.13)
+  n2: 68688 0x306649DDA8: std::string::_M_mutate(unsigned long, unsigned long, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+   n1: 68663 0x306649DF6A: std::string::_M_replace_safe(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+    n1: 68663 0x306649E946: std::string::replace(unsigned long, unsigned long, char const*, unsigned long) (in /usr/lib64/libstdc++.so.6.0.13)
+     n1: 68663 0x407DB8: std::string& std::string::assign<__gnu_cxx::__normal_iterator<char const*, std::string> >(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>) (basic_string.h:1158)
+      n1: 68663 0x407D5B: void boost::tokenizer_detail::assign_or_plus_equal<std::random_access_iterator_tag>::assign<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:227)
+       n2: 68663 0x407B31: bool boost::char_separator<char, std::char_traits<char> >::operator()<__gnu_cxx::__normal_iterator<char const*, std::string>, std::string>(__gnu_cxx::__normal_iterator<char const*, std::string>&, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string&) (token_functions.hpp:485)
+        n1: 68663 0x4075ED: boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>::increment() (token_iterator.hpp:52)
+         n1: 68663 0x40731E: void boost::iterator_core_access::increment<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string> >(boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>&) (iterator_facade.hpp:522)
+          n1: 68663 0x407138: boost::iterator_facade<boost::token_iterator<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, std::string, boost::forward_traversal_tag, std::string const&, long>::operator++() (iterator_facade.hpp:664)
+           n1: 68663 0x406E55: void boost::foreach_detail_::next<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >(boost::foreach_detail_::auto_any_base const&, boost::foreach_detail_::type2type<boost::tokenizer<boost::char_separator<char, std::char_traits<char> >, __gnu_cxx::__normal_iterator<char const*, std::string>, std::string>, mpl_::bool_<false> >*) (foreach.hpp:739)
+            n1: 68663 0x406481: lineProcess::run() (lineProcess.cpp:29)
+             n1: 68663 0x403400: runThread(void*) (Thread.cpp:18)
+              n1: 68663 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+               n0: 68663 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+        n0: 0 in 1 place, below massif's threshold (01.00%)
+   n0: 25 in 1 place, below massif's threshold (01.00%)
+  n0: 249 in 2 places, all below massif's threshold (01.00%)
+ n2: 19968 0x5541A35: bson_malloc0 (in /usr/local/lib/libbson-1.0.so.0.0.0)
+  n1: 18432 0x576A9E0: mongoc_bulk_operation_new (in /usr/local/lib/libmongoc-1.0.so.0.0.0)
+   n1: 18432 0x52FF13C: mongocxx::v_noabi::bulk_write::bulk_write(mongocxx::v_noabi::options::bulk_write) (in /usr/local/lib/libmongocxx.so.3.0.1)
+    n0: 18432 in 8 places, all below massif's threshold (01.00%)
+  n0: 1536 in 23 places, all below massif's threshold (01.00%)
+ n1: 19008 0x405FE7: lineProcess::run() (lineProcess.cpp:26)
+  n1: 19008 0x403400: runThread(void*) (Thread.cpp:18)
+   n1: 19008 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+    n0: 19008 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+ n2: 18432 0x306486ACCD: CRYPTO_realloc (in /usr/lib64/libcrypto.so.1.0.1e)
+  n2: 18432 0x30648E604C: lh_insert (in /usr/lib64/libcrypto.so.1.0.1e)
+   n1: 16384 0x30648E87C7: ??? (in /usr/lib64/libcrypto.so.1.0.1e)
+    n2: 16384 0x30648E814A: ??? (in /usr/lib64/libcrypto.so.1.0.1e)
+     n1: 16384 0x306494C2FC: ERR_load_CMS_strings (in /usr/lib64/libcrypto.so.1.0.1e)
+      n1: 16384 0x3066845A27: SSL_load_error_strings (in /usr/lib64/libssl.so.1.0.1e)
+       n1: 16384 0x5794CD2: _mongoc_openssl_init (in /usr/local/lib/libmongoc-1.0.so.0.0.0)
+        n1: 16384 0x577BA17: _mongoc_do_init (in /usr/local/lib/libmongoc-1.0.so.0.0.0)
+         n1: 16384 0x37C060CD31: pthread_once (in /lib64/libpthread-2.12.so)
+          n1: 16384 0x37BF60E59D: _dl_init (in /lib64/ld-2.12.so)
+           n0: 16384 0x37BF600B38: ??? (in /lib64/ld-2.12.so)
+     n0: 0 in 5 places, all below massif's threshold (01.00%)
+   n0: 2048 in 1 place, below massif's threshold (01.00%)
+  n0: 0 in 2 places, all below massif's threshold (01.00%)
+ n0: 15350 in 54 places, all below massif's threshold (01.00%)
+ n1: 10224 0x40D988: __gnu_cxx::new_allocator<std::string**>::allocate(unsigned long, void const*) (new_allocator.h:104)
+  n2: 10224 0x40D45A: std::_Deque_base<std::string*, std::allocator<std::string*> >::_M_allocate_map(unsigned long) (stl_deque.h:544)
+   n1: 10224 0x40DC38: std::deque<std::string*, std::allocator<std::string*> >::_M_reallocate_map(unsigned long, bool) (deque.tcc:901)
+    n1: 10224 0x40D8E7: std::deque<std::string*, std::allocator<std::string*> >::_M_reserve_map_at_back(unsigned long) (stl_deque.h:1928)
+     n1: 10224 0x40D28A: void std::deque<std::string*, std::allocator<std::string*> >::_M_push_back_aux<std::string* const&>(std::string* const&) (deque.tcc:446)
+      n1: 10224 0x40CAEB: std::deque<std::string*, std::allocator<std::string*> >::push_back(std::string* const&) (stl_deque.h:1399)
+       n1: 10224 0x40C70D: std::queue<std::string*, std::deque<std::string*, std::allocator<std::string*> > >::push(std::string* const&) (stl_queue.h:213)
+        n1: 10224 0x40BEF1: readFile::run() (readFile.cpp:65)
+         n1: 10224 0x403400: runThread(void*) (Thread.cpp:18)
+          n1: 10224 0x37C06079CF: start_thread (in /lib64/libpthread-2.12.so)
+           n0: 10224 0x37BFEE8B6B: clone (in /lib64/libc-2.12.so)
+   n0: 0 in 1 place, below massif's threshold (01.00%)
